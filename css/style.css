@@ -396,6 +396,8 @@ body {
 }
 .promo__content {
   padding: 115px 20px 60px 115px;
+  position: relative;
+  z-index: 2;
 }
 .promo__content h2 {
   font-size: 48px;
