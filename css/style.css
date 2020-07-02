@@ -361,6 +361,7 @@ body {
   -o-border-radius: 5px;
   background: #ffffff;
   position: relative;
+  z-index: 1;
 }
 .nav::after {
   content: '';
@@ -375,6 +376,7 @@ body {
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  z-index: -1;
 }
 .nav__item {
   display: inline-block;
