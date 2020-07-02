@@ -59,7 +59,7 @@ body {
   height: 121px;
   left: 52%;
   bottom: 22%;
-  z-index: 4;
+  z-index: 1;
 }
 .flexbox {
   display: -webkit-flex;
@@ -397,7 +397,7 @@ body {
 .promo__content {
   padding: 115px 20px 60px 115px;
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 .promo__content h2 {
   font-size: 48px;
@@ -488,6 +488,7 @@ body {
   width: 74px;
   height: 74px;
   cursor: pointer;
+  z-index: 2;
 }
 .icon-info::before {
   content: '';
